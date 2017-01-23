@@ -155,3 +155,28 @@ section.testimonials {
   }
 }
 
+.col_container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.col_4 {
+  font-size:1em;
+}
+
+#medusa_link {
+  font-size:1em;
+  /*align-self:flex-end;*/
+}
+
+#medusa_link img {
+  max-width:215px;
+  vertical-align:text-top;
+}
+
